@@ -1,0 +1,63 @@
+html {
+    box-sizing: border-box;
+}
+
+*, *::before, *::after {
+    box-sizing: inherit;
+    margin: 0;
+    padding: 0;
+}
+
+
+body {
+    background-color: rgb(77, 77, 77);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.logo {
+    height: 100px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(189, 56, 56);
+}
+
+.nav-items {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    padding: 0 20px;
+}
+
+a:hover {
+    color: rgb(255, 0, 0);
+    transition: ease 0.5s;
+    background-color: black;
+}
+
+.email {
+    margin-right: 10px;
+}
+
+li {
+    border: 2px solid red;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    margin: 0 20px;
+    padding: 0px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
